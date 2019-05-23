@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.pricing {
+    margin: auto;
+    text-align: center;
+    background-color: #F8F6F6;
+    font-family: 'Montserrat', sans-serif;
+    height: 966px;
+}
+
+.btn {
+    border: 1px solid #222847;
+    border-radius: 27px;
+    width: 75%;
+    height: 12%;
+    background-color: #F8F6F6;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.card {
+    width: 366px;
+    height: 507px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 7px rgba(34, 31, 31, 0.24);
+    background-color: #000000;
+    border: 2px solid #202646;
+    background-color: #F8F6F6;
+    transition: all .2s ease-in-out;
+}
+
+.card-body {
+    padding: 1.8rem;
+}
+.card:hover {
+    border-radius: 0%;
+    background-color: #202646;
+    color: white;
+    transform: scale(1.1);
+}
+
+.card:hover .card-pp {
+    color: white;
+}
+
+.card:hover .list-unstyled {
+    color: white;
+}
+.card:hover .btn {
+    color: #3dc99a;
+}
+
+.pricing-header {
+    width: 914px;
+}
+
+.display-4 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #5d5d5d;
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+
+/* .pricing-header p {
+    font-size: 20px;
+    line-height: 36px;
+    color: #737373;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+} */
+
+.list-unstyled {
+    font-size: 14px;
+    line-height: 36px;
+    color: #5d5d5d;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.card-p {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-pp {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #5D5D5D;
+    font-weight: bold;
+}
